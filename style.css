@@ -160,4 +160,37 @@ article{
 .rating{
     margin-left: 15px;
 }
+.see-more,a{
+   color: #E02C6D; 
+   text-align: right;
+   position: relative;
+   right: 28px;
+}
 
+.footer{
+    background-color: rgb(48, 60, 128);
+    width: 100%;
+    height: 300px;
+    display: flex;
+   justify-content: center;
+   
+    
+}
+.footer-content{
+    width: 262px;
+    height: 139px;
+    color: white;
+    margin-top: 50px;
+    
+}
+.footer-content p{
+    font-size: 13px;
+ 
+
+}
+
+.footer-content span{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+}
