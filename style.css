@@ -8,7 +8,7 @@ header{
     margin: 5% 10%;
 }
 
-/* menu-part-1st secton */
+ menu-part-1st secton
 
 .first-section{
     width:100% ;
@@ -34,7 +34,7 @@ header{
 .menu , nav, ul , li,a{
     color: #3A3A3A;
     text-decoration: none;
-}
+} 
 
 /* camera-secoud secton */
 
@@ -109,10 +109,13 @@ header{
 
 /* Populer-collection */
 .popular-collection{
+    width: 100%;
     display: flex;
     flex-direction: column;
-    margin: 5%  19%;
-    justify-content: center;
+    margin-top: 60px;
+
+    
+
 }
 .popular-collection h2{
     font-size: 35px;
@@ -122,8 +125,8 @@ header{
 .whole-article{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    width: 100%;
     grid-row-gap: 30px;
+    margin: 0px 20%;
 }
 article{
     width: 329px;
@@ -177,8 +180,7 @@ article{
     
 }
 .footer-content{
-    width: 262px;
-    height: 139px;
+
     color: white;
     margin-top: 50px;
     
@@ -193,4 +195,57 @@ article{
     display: flex;
     gap: 30px;
     font-size: 20px;
+}
+
+
+/* media-Quary-responsive */
+@media screen and (max-width:668px){
+    .secound-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }  
+
+    .camera-img {
+        width: 280px;
+        height: 250px;
+        border: 2px solid rgb(147, 213, 252);
+        border-radius: 50%;
+    }
+    .camera-img img{
+        width: 280px;
+    }
+    .camera-info {
+        width: 380px;
+        height: 400px;
+    }
+        
+    .camera-info h1 {
+        font-size: 35px;
+    }
+    .camera-info p {
+        font-size: 16px;
+        width: 360px;
+    }
+    .camera-info button {
+        margin-left: 50px;
+    }
+    .company-details {
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+    }
+
+    .logos {
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        margin-left: 30px;
+        border: none;
+    }
+
+    }
+    .logos .logo img{
+        width: 50px;
+    }
 }
